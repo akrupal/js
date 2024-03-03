@@ -8,6 +8,8 @@ accountEmail = "abc@gmail.com"
 accountPassword = "23456"
 accountCity = "NGP"
 
+// let is used according to scope
+
 console.log(accountId);
 
 console.table([accountId, accountEmail, accountPassword, accountCity])
