@@ -34,3 +34,29 @@ const myFunction = function(){
 }
 
 console.log(typeof myFunction);
+
+
+// memory
+
+// stack (primitive) heap(non primitive)
+// stack copy
+// heap reference of original value
+
+let a = "abcd"
+let b = a
+
+a = "cdef"
+
+console.log(a)
+console.log(b) // string are primitive datatypes so copy is passed
+
+let userOne = {
+    email: "abc@gmail.com",
+    upi: "aj123@asd"
+}
+
+let userTwo = userOne
+
+userTwo.email = "ajinkya@gmail.com"
+
+console.log(userOne);
