@@ -32,3 +32,7 @@ const myCoding = [
 myCoding.forEach((item) => {
     console.log(item.languageName);// array of objects
 })
+//for each wont return any values even if we try to assign something like with a return statement
+// const value = myCoding.forEach {
+//    return  item
+//}
