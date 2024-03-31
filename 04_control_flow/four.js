@@ -24,4 +24,4 @@ console.log(new2num);
 const new3num = myNums
                 .map((map)=>map*10)
                 .map((map)=>map+1)
-                .filter((map)=> num>=40) // we can go on chaining like this
+                .filter((map)=> map>=40) // we can go on chaining like this
